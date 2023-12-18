@@ -17,7 +17,7 @@ This project is released as part of the [Robot Web Tools](https://robotwebtools.
 
 ### For Win10/11 OS
 0. https://ms-iot.github.io/ROSOnWindows/GettingStarted/SetupRos2.html
-1. python -m pip install pillow pymongo bson tornado twisted autobahn
+1. python -m pip install pillow pymongo tornado twisted autobahn
 2. colcon build
 3. call install/local_setup.bat
 * reference:
