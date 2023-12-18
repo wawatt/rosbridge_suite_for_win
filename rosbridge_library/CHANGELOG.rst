@@ -1,6 +1,7 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package rosbridge_library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 1.3.2 (2023-12-18)
 ------------------
 * fix bug src/rosbridge_library/internal/ros_loader.py with python 3.8, reference: 
