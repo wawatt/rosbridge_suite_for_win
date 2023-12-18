@@ -2,6 +2,10 @@
 Changelog for package rosapi
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.2 (2023-12-18)
+------------------
+* Change to python package
+
 1.3.2 (2023-09-27)
 ------------------
 * Fix ROS2 CI for iron & rolling (`#875 <https://github.com/RobotWebTools/rosbridge_suite/issues/875>`_)

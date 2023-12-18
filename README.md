@@ -15,6 +15,10 @@ For full documentation, see [the ROS wiki](http://ros.org/wiki/rosbridge_suite).
 
 This project is released as part of the [Robot Web Tools](https://robotwebtools.github.io/) effort.
 
+### For Win10/11 OS
+0. https://ms-iot.github.io/ROSOnWindows/GettingStarted/SetupRos2.html
+1. python -m pip install pillow pymongo bson tornado twisted autobahn
+
 ### Packages
 
  * [rosbridge_suite](rosbridge_suite) is a [ROS meta-package](http://www.ros.org/wiki/catkin/conceptual_overview#Metapackages_and_the_Elimination_of_Stacks) including all the rosbridge packages.
