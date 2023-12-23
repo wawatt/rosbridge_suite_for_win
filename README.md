@@ -27,7 +27,7 @@ This project is released as part of the [Robot Web Tools](https://robotwebtools.
 #### 2. build
 ```
 colcon build
-colcon build --packages-up-to rosbridge_suite --event-handlers console_cohension+
+colcon build --packages-up-to rosbridge_suite --event-handlers console_cohesion+ --cmake-args -DCMAKE_BUILD_TYPE=Release
 call install/setup.bat
 ```
 
