@@ -16,12 +16,27 @@ For full documentation, see [the ROS wiki](http://ros.org/wiki/rosbridge_suite).
 This project is released as part of the [Robot Web Tools](https://robotwebtools.github.io/) effort.
 
 ### For Win10/11 OS
-0. https://ms-iot.github.io/ROSOnWindows/GettingStarted/SetupRos2.html
-1. python -m pip install pillow pymongo tornado twisted autobahn
-2. colcon build
-3. call install/local_setup.bat
-* reference:
+#### 1. install
+1. https://ms-iot.github.io/ROSOnWindows/GettingStarted/SetupRos2.html
+2. https://zhuanlan.zhihu.com/p/414874250
+3. for rosbridge-suite
+    ```
+    python -m pip install pillow pymongo tornado twisted autobahn
+    ```
+
+#### 2. build
+```
+colcon build
+colcon build --packages-up-to rosbridge_suite --event-handlers console_cohension+
+call install/setup.bat
+```
+
+#### 3. win encoding problem
+https://github.com/colcon/colcon-output/pull/45/files
+
+#### 4. repo modified reference:
   https://github.com/GaoGeolone/ros2bridge_suite
+
 ### Packages
 
  * [rosbridge_suite](rosbridge_suite) is a [ROS meta-package](http://www.ros.org/wiki/catkin/conceptual_overview#Metapackages_and_the_Elimination_of_Stacks) including all the rosbridge packages.
